@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d, CubicSpline
 
-
 def SplineChart():
     x = np.array([1,6,7,9,12,20])
     y = np.array([2,8,6,10,14,41])
@@ -25,3 +24,4 @@ def SplineChart():
 
     plt.legend()
     plt.show()
+
